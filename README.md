@@ -1,4 +1,4 @@
-# chips-input
+# Chips-input - React App
 
 Instruction to run the code
 1. Make sure the local development machine has Node.Js and NPM softwares are installed
