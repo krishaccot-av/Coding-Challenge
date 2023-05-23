@@ -1,7 +1,7 @@
 # Chips-input - React App
 
 Instruction to run the code
-1. Make sure the local development machine has [Node.Js](https://nodejs.org/en/download) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) softwares are installed
+1. Make sure the local development machine has [Node.Js](https://nodejs.org/en/download) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) softwares installed
 2.  Clone [https://github.com/krishaccot-av/Coding-Challenge](https://github.com/krishaccot-av/Coding-Challenge.git)  code to local machine. 
 3. Open [Visual Studio Code](https://code.visualstudio.com/#alt-downloads) pointing the cloned code folder.
 4. Open terminal and change directory to chips-inputs folder
