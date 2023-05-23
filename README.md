@@ -17,3 +17,6 @@ Instruction to run the code
 ![image](https://github.com/krishaccot-av/Coding-Challenge/assets/117759966/6d7c4eb9-610d-4e6f-8a50-0a45a36d1a5f)
 
 7. It opens a browser window loading the application
+
+![image](https://github.com/krishaccot-av/Coding-Challenge/assets/117759966/369b74fc-cbfd-48be-a292-f9cc70acbbdd)
+
