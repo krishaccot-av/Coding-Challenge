@@ -32,6 +32,11 @@ function App() {
     // updating the list
     setSearches(tempSearches);
  }
+
+ const QueryChip = ()=>(query.length > 0) ? (<div class="chip m-1" key={query}>{query}
+ <button class="border-0" onClick={() => updateQuery({target:{value:""}})}> x </button>
+</div>) : (<></>);
+
   return (
     <div class="container-fluid">
               <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info">
@@ -66,6 +71,7 @@ function App() {
                 <div class="chip m-1" key={query + i}>{query}
                   <button class="border-0" onClick={() => removeSearch(i)}> x </button>
                 </div>))}
+                <QueryChip/>
               </div>
     </div>
   );
