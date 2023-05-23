@@ -2,7 +2,7 @@
 
 Instruction to run the code
 1. Make sure the local development machine has Node.Js and NPM softwares are installed
-2.  Clone [https://github.com/krishaccot-av/chips-input](https://github.com/krishaccot-av/Coding-Challenge.git)  code to local machine. 
+2.  Clone [https://github.com/krishaccot-av/Coding-Challenge](https://github.com/krishaccot-av/Coding-Challenge.git)  code to local machine. 
 3. Open Visual Studio Code pointing the cloned code folder.
 4. Open terminal and change directory to chips-inputs folder
 
