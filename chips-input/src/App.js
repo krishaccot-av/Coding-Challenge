@@ -33,43 +33,43 @@ function App() {
     setSearches(tempSearches);
  }
 
- const QueryChip = ()=>(query.length > 0) ? (<div class="chip m-1" key={query}>{query}
- <button class="border-0" onClick={() => updateQuery({target:{value:""}})}> x </button>
+ const QueryChip = ()=>(query.length > 0) ? (<div className="chip m-1" key={query}>{query}
+ <button className="border-0" onClick={() => updateQuery({target:{value:""}})}> x </button>
 </div>) : (<></>);
 
   return (
-    <div class="container-fluid">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info">
-                <div class="row">
-                  <div class="col text-center p-1">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+    <div className="container-fluid">
+              <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info">
+                <div className="row">
+                  <div className="col text-center p-1">
+                  <a className="nav-link active link-dark" aria-describedby='Home' alt='Home' aria-current="page" aria-label='Home' href="#">Home</a>
                   </div>
-                  <div class="col-10 text-center">
+                  <div className="col-10 text-center">
                   <h3>Chips Input</h3>
                   </div>
-                  <div class="col p-1">
-                  <a class="navbar-brand" target="_blank" href="https://github.com/krishaccot-av/chips-input">
-                    <img src={logo} alt="" />
+                  <div className="col p-1">
+                  <a className="navbar-brand" target="_blank" href="https://github.com/krishaccot-av/chips-input" aria-label='Link to Github Repo'>
+                    <img src={logo} alt="Link to Github repo" />
                   </a>
                   </div>
                 </div>
               </nav>
-              <div class="row p-4">
-                <div class="mb-3 col"></div>
-                <div class="mb-3 col-8">
+              <div className="row p-4">
+                <div className="mb-3 col"></div>
+                <div className="mb-3 col-8">
                     <input type="text" 
-                    class="form-control" 
+                    className="form-control" 
                     id="exampleFormControlInput1" 
                     placeholder="Type & hit Enter" 
                     onChange={updateQuery} 
                     onKeyDown={keyPressed} value={query}/>
                 </div>
-                <div class="mb-3 col"></div>
+                <div className="mb-3 col"></div>
               </div>
     
               <div>{searches.map((query, i) => (
-                <div class="chip m-1" key={query + i}>{query}
-                  <button class="border-0" onClick={() => removeSearch(i)}> x </button>
+                <div className="chip m-1" key={query + i}>{query}
+                  <button className="border-0" onClick={() => removeSearch(i)}> x </button>
                 </div>))}
                 <QueryChip/>
               </div>
